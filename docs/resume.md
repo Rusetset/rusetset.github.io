@@ -12,10 +12,6 @@ title: Résumé du projet
 
 # Résumé du projet
 
-> :bulb: Cette page présente une **synthèse courte** du projet.
-> Elle doit pouvoir être comprise sans lire le rapport complet.  
-> N'oubliez pas d’effacer ou de mettre en commentaires les notes (`>`) avant la remise finale.
-
 ## Introduction
 
 > Présentez en un court texte cohérent : le contexte général, la problématique ou question centrale, la proposition retenue.
