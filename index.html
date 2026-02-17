@@ -640,7 +640,7 @@
 </div>
 <h2 id="description-du-projet">Description du projet<a class="headerlink" href="#description-du-projet" title="Permanent link">&para;</a></h2>
 <h3 id="contexte">Contexte<a class="headerlink" href="#contexte" title="Permanent link">&para;</a></h3>
-<p>Le cytochrome P450 (CYP) est une famille de protéines enzymatiques qui joue un rôle crucial dans le métabolisme des médicaments, des hormones, et de nombreux autres substrats dans les organismes. Cependant, les mutations dans cette famille de gènes peuvent entraîner des perturbations de leur fonction, affectant ainsi la santé du patient et sa réponse aux traitements. Ceci dit, l'étude des effets des mutations sur les protéines CYP est complexe en raison de l'épistasie, un phénomène dans lequel l'effet combiné de plusieurs mutations ne peut pas être prédit simplement par l'addition de leurs effets individuels. Parallèlement, les récents progrès en apprentissage profond ont conduit au développement de Protein Large Language Models (pLLM), tels qu’ESM2, entraînés sur de vastes bases de données de séquences protéiques. Ces modèles sont capables d’extraire des représentations informatives à partir de la seule séquence en acides aminés, ouvrant de nouvelles perspectives pour la prédiction des effets des mutations. Néanmoins, leur capacité à modéliser des phénomènes complexes tels que l’épistasie reste encore peu explorée, en particulier pour des familles protéiques spécifiques comme les CYP.</p>
+<p>Les cytochrome P450 (CYP) sont une famille de protéines enzymatiques qui joue un rôle crucial dans le métabolisme des médicaments, des hormones, et de nombreux autres substrats dans les organismes. Cependant, les mutations dans cette famille de gènes peuvent entraîner des perturbations de leur fonction, affectant ainsi la santé du patient et sa réponse aux traitements. Ceci dit, l'étude des effets des mutations sur les protéines CYP est complexe en raison de l'épistasie, un phénomène dans lequel l'effet combiné de plusieurs mutations ne peut pas être prédit simplement par l'addition de leurs effets individuels. Parallèlement, les récents progrès en apprentissage profond ont conduit au développement de Protein Large Language Models (pLLM), tels qu’ESM2, entraînés sur de vastes bases de données de séquences protéiques. Ces modèles sont capables d’extraire des représentations informatives à partir de la seule séquence en acides aminés, ouvrant de nouvelles perspectives pour la prédiction des effets des mutations. Néanmoins, leur capacité à modéliser des phénomènes complexes tels que l’épistasie reste encore peu explorée, en particulier pour des familles protéiques spécifiques comme les CYP.</p>
 <h3 id="problematique">Problématique<a class="headerlink" href="#problematique" title="Permanent link">&para;</a></h3>
 <p>La plupart des approches actuelles de prédiction de l’impact des mutations protéiques se concentrent sur des mutations individuelles comme le modèle AlphaMissense. Or, dans de nombreux cas biologiques, l’effet combiné de plusieurs mutations est non additif, en raison d’interactions épistatiques entre résidus. De plus, cette limitation est particulièrement critique pour les CYP, car ces protéines présentent souvent plusieurs mutations simultanées, dont les interactions peuvent fortement moduler l’activité enzymatique, et les données expérimentales couvrant l’ensemble des combinaisons possibles restent rares et coûteuses à obtenir. La problématique de ce projet est donc de déterminer si un protein Language Model, tel qu’ESM2, peut être spécialisé par fine-tuning sur la famille des CYP afin de prédire l’impact épistatique de mutations multiples sur ces protéines. L’étude de cette question est motivée par l’importance biologique et médicale des CYP, ainsi que par le potentiel des pLLM à capturer des relations complexes au sein des séquences protéiques.</p>
 <h3 id="proposition-et-objectifs">Proposition et objectifs<a class="headerlink" href="#proposition-et-objectifs" title="Permanent link">&para;</a></h3>
@@ -684,7 +684,7 @@ eucaryotes. Le modèle ESM2 pré-entraîné sans fine-tuning sera utilisé comme
 <td>Constitution des datasets</td>
 <td>26 jan.</td>
 <td>8 fév.</td>
-<td>Trainsets et testsets + README</td>
+<td>Trainsets et testsets + doc méthodo</td>
 <td>✅ Terminé</td>
 </tr>
 <tr>
@@ -705,7 +705,7 @@ eucaryotes. Le modèle ESM2 pré-entraîné sans fine-tuning sera utilisé comme
 <td>Itération 2 avec amélioration</td>
 <td>8 mar.</td>
 <td>22 mar.</td>
-<td>Code amélioré et datasets rafinés</td>
+<td>Code amélioré et datasets raffinés</td>
 <td>⏳ À venir</td>
 </tr>
 <tr>
