@@ -22,7 +22,7 @@ title: Vue d'ensemble du projet
 
 ### Contexte
 
-Le cytochrome P450 (CYP) est une famille de protéines enzymatiques qui joue un rôle crucial dans le métabolisme des médicaments, des hormones, et de nombreux autres substrats dans les organismes. Cependant, les mutations dans cette famille de gènes peuvent entraîner des perturbations de leur fonction, affectant ainsi la santé du patient et sa réponse aux traitements. Ceci dit, l'étude des effets des mutations sur les protéines CYP est complexe en raison de l'épistasie, un phénomène dans lequel l'effet combiné de plusieurs mutations ne peut pas être prédit simplement par l'addition de leurs effets individuels. Parallèlement, les récents progrès en apprentissage profond ont conduit au développement de Protein Large Language Models (pLLM), tels qu’ESM2, entraînés sur de vastes bases de données de séquences protéiques. Ces modèles sont capables d’extraire des représentations informatives à partir de la seule séquence en acides aminés, ouvrant de nouvelles perspectives pour la prédiction des effets des mutations. Néanmoins, leur capacité à modéliser des phénomènes complexes tels que l’épistasie reste encore peu explorée, en particulier pour des familles protéiques spécifiques comme les CYP.
+Les cytochrome P450 (CYP) sont une famille de protéines enzymatiques qui joue un rôle crucial dans le métabolisme des médicaments, des hormones, et de nombreux autres substrats dans les organismes. Cependant, les mutations dans cette famille de gènes peuvent entraîner des perturbations de leur fonction, affectant ainsi la santé du patient et sa réponse aux traitements. Ceci dit, l'étude des effets des mutations sur les protéines CYP est complexe en raison de l'épistasie, un phénomène dans lequel l'effet combiné de plusieurs mutations ne peut pas être prédit simplement par l'addition de leurs effets individuels. Parallèlement, les récents progrès en apprentissage profond ont conduit au développement de Protein Large Language Models (pLLM), tels qu’ESM2, entraînés sur de vastes bases de données de séquences protéiques. Ces modèles sont capables d’extraire des représentations informatives à partir de la seule séquence en acides aminés, ouvrant de nouvelles perspectives pour la prédiction des effets des mutations. Néanmoins, leur capacité à modéliser des phénomènes complexes tels que l’épistasie reste encore peu explorée, en particulier pour des familles protéiques spécifiques comme les CYP.
 
 ### Problématique
 
@@ -50,10 +50,11 @@ L’évaluation sera réalisée sur des séquences CYP indépendantes, provenant
 |--------------------------------|---------|---------|-------------------------------------|-------------|
 | Kick-off du projet             | 12 jan. | 12 jan. | Description du projet               | ✅ Terminé  |
 | État de l'art                  | 12 jan. | 25 jan. | Rapport de synthèse + références    | ✅ Terminé  |
-| Constitution des datasets      | 26 jan. |  8 fév. | Trainsets et testsets + README      | ✅ Terminé  |
-| Implémentation et finetuning   |  8 fév. | 22 fév. | Code fonctionnel                    | 🔄 En cours |
-| Benchmark et analyses des perfs| 22 fév. |  7 mar. | Pipeline d'analyses + graph de perfs| ⏳ À venir  |
-| Itération 2 avec amélioration  |  8 mar. | 22 mar. | Code amélioré et datasets rafinés   | ⏳ À venir  |
-| Validation et test finaux      | 23 mar. |  6 avr. | Rapport de validation               | ⏳ À venir  |
-| Finalisation des analyses      |  7 avr. | 17 avr. | Rapport d’analyses final            | ⏳ À venir  |
+| Constitution des datasets      | 26 jan. |  8 fév. | Trainsets et testsets + doc méthodo | ✅ Terminé  |
+| Implémentation du finetuning   |  8 fév. | 22 fév. | Code fonctionnel                    | ✅ Terminé  |
+| Benchmark et learning analyses | 22 fév. |  7 mar. | Pipeline d'analyses + graph de perfs| ✅ Terminé  |
+| Implémentation du fitness score|  8 mar. | 15 mar. | Fitness scores on mutations dataset | ✅ Terminé  |
+| Itération 2 avec amélioration  | 16 mar. | 29 mar. | Code amélioré et datasets raffinés  | 🔄 En cours |
+| Validation et test finaux      | 29 mar. |  5 avr. | Rapport de validation               | ⏳ À venir  |
+| Finalisation des analyses      |  6 avr. | 17 avr. | Rapport d’analyses final            | ⏳ À venir  |
 | Présentation + Rapport         | 17 avr. | 30 avr. | Présentation + Rapport              | ⏳ À venir  |
