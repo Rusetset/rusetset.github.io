@@ -54,7 +54,7 @@ L’évaluation sera réalisée sur des séquences CYP indépendantes, provenant
 | Implémentation du finetuning   |  8 fév. | 22 fév. | Code fonctionnel                    | ✅ Terminé  |
 | Benchmark et learning analyses | 22 fév. |  7 mar. | Pipeline d'analyses + graph de perfs| ✅ Terminé  |
 | Implémentation du fitness score|  8 mar. | 15 mar. | Fitness scores on mutations dataset | ✅ Terminé  |
-| Itération 2 avec amélioration  | 16 mar. | 29 mar. | Code amélioré et datasets raffinés  | 🔄 En cours |
-| Validation et test finaux      | 29 mar. |  5 avr. | Rapport de validation               | ⏳ À venir  |
-| Finalisation des analyses      |  6 avr. | 17 avr. | Rapport d’analyses final            | ⏳ À venir  |
-| Présentation + Rapport         | 17 avr. | 30 avr. | Présentation + Rapport              | ⏳ À venir  |
+| Scores AlphaMissense&OutliersV2| 16 mar. | 29 mar. | Scores AM + Prez de l'investigation | ✅ Terminé  |
+| Rech. méth. pour faire datasets| 30 mar. |  5 avr. | Prez de new méthode + new trainsets | ✅ Terminé  |
+| Finalisation des analyses      |  6 avr. | 17 avr. | Rapport d’analyses final            | ✅ Terminé  |
+| Last analyses + Prez + Rapport | 18 avr. | 30 avr. | Présentation + Rapport              | ✅ Terminé  |
