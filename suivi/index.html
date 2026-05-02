@@ -750,15 +750,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-iteration-2-avec-amelioration" class="md-nav__link">
+  <a href="#activites-obtenir-les-scores-dalphamissense-et-deuxieme-investigation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Itération 2 avec amélioration
+        Activités : Obtenir les scores d'AlphaMissense et deuxième investigation
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Activités : Itération 2 avec amélioration">
+    <nav class="md-nav" aria-label="Activités : Obtenir les scores d&#39;AlphaMissense et deuxième investigation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -817,15 +817,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-validation-et-test-finaux" class="md-nav__link">
+  <a href="#activites-recherche-dune-nonvelle-methode-de-construction-des-datasets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Validation et test finaux
+        Activités : Recherche d'une nonvelle méthode de construction des datasets
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Activités : Validation et test finaux">
+    <nav class="md-nav" aria-label="Activités : Recherche d&#39;une nonvelle méthode de construction des datasets">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -951,10 +951,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-presentation-rapport" class="md-nav__link">
+  <a href="#activites-dernieres-analyses-presentation-rapport" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Présentation + Rapport
+        Activités : Dernières analyses + Présentation + Rapport
       
     </span>
   </a>
@@ -1387,15 +1387,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-iteration-2-avec-amelioration" class="md-nav__link">
+  <a href="#activites-obtenir-les-scores-dalphamissense-et-deuxieme-investigation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Itération 2 avec amélioration
+        Activités : Obtenir les scores d'AlphaMissense et deuxième investigation
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Activités : Itération 2 avec amélioration">
+    <nav class="md-nav" aria-label="Activités : Obtenir les scores d&#39;AlphaMissense et deuxième investigation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1454,15 +1454,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-validation-et-test-finaux" class="md-nav__link">
+  <a href="#activites-recherche-dune-nonvelle-methode-de-construction-des-datasets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Validation et test finaux
+        Activités : Recherche d'une nonvelle méthode de construction des datasets
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Activités : Validation et test finaux">
+    <nav class="md-nav" aria-label="Activités : Recherche d&#39;une nonvelle méthode de construction des datasets">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1588,10 +1588,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#activites-presentation-rapport" class="md-nav__link">
+  <a href="#activites-dernieres-analyses-presentation-rapport" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Activités : Présentation + Rapport
+        Activités : Dernières analyses + Présentation + Rapport
       
     </span>
   </a>
@@ -1713,9 +1713,9 @@ Queueing long sur ComputeCanada si 2 gpu sont demandés</p>
 <h4 id="decisions-et-ajustements_2">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_2" title="Permanent link">&para;</a></h4>
 <p>Problèmes réglés pour la librarie Arrow.<br />
 Pour les GPUs, un seul sera utilisé (queueing court) + décisions de se concentrer sur le trainset de mammifères car plus petit (seulement 5h d'entrainement)</p>
-<p>Pour la perennité du projet : 
-- ajouter l'outil MLflow pour assurer une meilleure reproductibilité des entraînements.
-- utiliser Docker pour la pipeline (avec conversion en Apptainer container pour rouler sur ComputeCanada )</p>
+<p>Pour la perennité du projet :<br />
+- ajouter l'outil MLflow pour assurer une meilleure reproductibilité des entraînements.<br />
+- utiliser Docker pour la pipeline (avec conversion en Apptainer container pour rouler sur ComputeCanada )  </p>
 <h2 id="semaine-7-8-227-mars">Semaine 7-8 (22–7 mars)<a class="headerlink" href="#semaine-7-8-227-mars" title="Permanent link">&para;</a></h2>
 <h3 id="activites-benchmark-et-analyses-de-lapprentissage">Activités : Benchmark et analyses de l'apprentissage<a class="headerlink" href="#activites-benchmark-et-analyses-de-lapprentissage" title="Permanent link">&para;</a></h3>
 <h4 id="travail-realise_3">Travail réalisé<a class="headerlink" href="#travail-realise_3" title="Permanent link">&para;</a></h4>
@@ -1739,34 +1739,74 @@ Rallonger si besoin le temps alloué pour cette étape car il n'y a pas d'altern
 <ul>
 <li>A investigué sur les outliers.</li>
 <li>A ajouté une visualisation par famille de gènes CYP et par taxon (par espèce).</li>
-<li>Aimplémenté le score de fitness et la pipeline pour mesurer la corrélation de la fitness avec les scores d'un autre prédicteur reconnu (modèle AlphaMissense).</li>
-<li>Aréalisé une pipeline de mesure de fitness à partir de fichier de séquences mutées.</li>
+<li>A implémenté le score de fitness et la pipeline pour mesurer la corrélation de la fitness avec les scores d'un autre prédicteur reconnu (modèle AlphaMissense).</li>
+<li>A réalisé une pipeline de mesure de fitness à partir de fichier de séquences mutées.</li>
 </ul>
 <h4 id="difficultes-rencontrees_4">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees_4" title="Permanent link">&para;</a></h4>
-<p>Pour les séquences mutées, il faut d'abord extraire les séquences de références pour chaque gène.<br />
+<p>Pour les séquences mutées des CYPs scorés par AlphaMissense, il faut d'abord extraire les séquences de références pour chaque gène.<br />
 Pour obtenir les scores de l'autre prédicteur, il faut utiliser le logiciel VEP et recouper les données avec une autre base de données. </p>
 <h4 id="decisions-et-ajustements_4">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_4" title="Permanent link">&para;</a></h4>
 <p>Rallonger si besoin le temps alloué pour cette étape car il n'y a pas d'alternatives pour le calcul de corrélation.</p>
 <h2 id="semaine-10-11-1629-mars">Semaine 10-11 (16–29 mars)<a class="headerlink" href="#semaine-10-11-1629-mars" title="Permanent link">&para;</a></h2>
-<h3 id="activites-iteration-2-avec-amelioration">Activités : Itération 2 avec amélioration<a class="headerlink" href="#activites-iteration-2-avec-amelioration" title="Permanent link">&para;</a></h3>
+<h3 id="activites-obtenir-les-scores-dalphamissense-et-deuxieme-investigation">Activités : Obtenir les scores d'AlphaMissense et deuxième investigation<a class="headerlink" href="#activites-obtenir-les-scores-dalphamissense-et-deuxieme-investigation" title="Permanent link">&para;</a></h3>
 <h4 id="travail-realise_5">Travail réalisé<a class="headerlink" href="#travail-realise_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A extrait les séquences de références pour chaque séquence mutée.</li>
+<li>A implémenté une pipeline avec VEP pour obtenir les scores de l'autre prédicteur (AlphaMissense).</li>
+<li>A obtenu les scores d'AlphaMissense. </li>
+<li>A réinvestigué sur les outliers avec l'outil Blastp et la base de données UniProtKB car en présentant les résultats, il y avait des incohérences sur la cause de certains outliers.  </li>
+</ul>
 <h4 id="difficultes-rencontrees_5">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees_5" title="Permanent link">&para;</a></h4>
+<p>Les outliers sont le fruit d'un problème plus complexe que prévu.<br />
+En effet, d'une part, certaines séquences ne sont pas des séquences de CYPs mais vu qu'elles contiennent le mot CYP dans le cluster name, elles se retrouvent dans nos datasets(ex: CYP reductase = enzyme qui interagit avec les CYP).<br />
+Mais plus grave, certaines sequences de référence sont tout simplement absentes de nos trainsets. En fait, extraire directement des séquences depuis la base de données UniRef n'est totalement adapté pour notre cas d'usage car du fait du fonctionnement de cette base de données certaines sequences de référence ont une annotation différente et sont donc non annotés comme des CYPs.  </p>
 <h4 id="decisions-et-ajustements_5">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_5" title="Permanent link">&para;</a></h4>
+<p>Refaire les datasets et trouver une manière plus rigoureuse de les constituer.<br />
+Réentrainer les modèles et régénérer les résultats si le temps le permet. (Au moins pour les mammifères et les hominidés)  </p>
 <h2 id="semaine-12-30-5-avril">Semaine 12 (30-5 avril)<a class="headerlink" href="#semaine-12-30-5-avril" title="Permanent link">&para;</a></h2>
-<h3 id="activites-validation-et-test-finaux">Activités : Validation et test finaux<a class="headerlink" href="#activites-validation-et-test-finaux" title="Permanent link">&para;</a></h3>
+<h3 id="activites-recherche-dune-nonvelle-methode-de-construction-des-datasets">Activités : Recherche d'une nonvelle méthode de construction des datasets<a class="headerlink" href="#activites-recherche-dune-nonvelle-methode-de-construction-des-datasets" title="Permanent link">&para;</a></h3>
 <h4 id="travail-realise_6">Travail réalisé<a class="headerlink" href="#travail-realise_6" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A établi une nouvelle manière de construire les datasets en s'aidant d'une base de données de référence (UniProtKB), UniRef et un outil appelé ID Mapping developpé pour mapper les IDs de UniRef avec d'autres base de données.  </li>
+<li>A généré une partie des données avec la nouvelle manière pour voir.  </li>
+</ul>
 <h4 id="difficultes-rencontrees_6">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees_6" title="Permanent link">&para;</a></h4>
+<p>Manque de temps pour réentrainer et regénérer l'ensemble des trainsets déjà créés.</p>
 <h4 id="decisions-et-ajustements_6">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_6" title="Permanent link">&para;</a></h4>
+<p>Au vu du temps qui reste, on gardera le modèle finetuné sur les mammifères avec les anciennes données car le modèle semble avoir appris. Aussi, les outliers sont vraiment rares quand on observe les données.  <br />
+Si le temps le permet, les datasets avec la nouvelle méthode seront générés mais sinon on ira de l'avant </p>
 <h2 id="semaine-13-14-6-17-avril">Semaine 13-14 (6-17 avril)<a class="headerlink" href="#semaine-13-14-6-17-avril" title="Permanent link">&para;</a></h2>
 <h3 id="activites-finalisation-des-analyses">Activités : Finalisation des analyses<a class="headerlink" href="#activites-finalisation-des-analyses" title="Permanent link">&para;</a></h3>
 <h3 id="travail-realise_7">Travail réalisé<a class="headerlink" href="#travail-realise_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>A généré les score de fitness  </li>
+<li>A mesuré la corrélation entre les scores du modèle et d'AlphaMissense. L'a mis en figure  </li>
+<li>A recoupé les résultats avec la base de données ClinVar qui recense des variants cliniquement observés (= sur des patients) pour voir si la corrélation pour ces variants est la même. </li>
+<li>A identifié des haplotypes (combinaisons de mutations connues) qui pourraient être utilisé   </li>
+</ul>
 <h4 id="difficultes-rencontrees_7">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees_7" title="Permanent link">&para;</a></h4>
+<p>Pour les haplotypes, nous souhaitons avoir des mutations qui impliquent seulement un changement d'acide aminé et non une suppression ou une insertion. En effet, une suppression raccourcit la séquence et une insertion la rallonge alors qu'on souhaite conserver la même longueur de séquence,
+Or, les haplotypes sont parfois des mélanges de plusieurs de ces cas.
+Aussi, certains CYP ne sont pas bien documentés dans la littérature</p>
 <h4 id="decisions-et-ajustements_7">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_7" title="Permanent link">&para;</a></h4>
+<p>Dans un premier temps, on partira avec CYP2D6 qui est le CYP le plus connu dans la littérature et qui possède 60 haplotypes qui pourraient nous intéressés. </p>
 <h2 id="semaine-14-16-1730-avril">Semaine 14-16 (17–30 avril)<a class="headerlink" href="#semaine-14-16-1730-avril" title="Permanent link">&para;</a></h2>
-<h3 id="activites-presentation-rapport">Activités : Présentation + Rapport<a class="headerlink" href="#activites-presentation-rapport" title="Permanent link">&para;</a></h3>
+<h3 id="activites-dernieres-analyses-presentation-rapport">Activités : Dernières analyses + Présentation + Rapport<a class="headerlink" href="#activites-dernieres-analyses-presentation-rapport" title="Permanent link">&para;</a></h3>
 <h3 id="travail-realise_8">Travail réalisé<a class="headerlink" href="#travail-realise_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li>A mesuré les scores de fitness de plusieurs positions mutées dans une séquence possédant plusieurs mutations.  </li>
+<li>A généré des profils de fitness par position pour chaque séquence. </li>
+<li>A regénéré des figures pour le rapport.  </li>
+<li>A rédigé le rapport.   </li>
+<li>A préparé la prsensetation et s'est pratiqué.  </li>
+</ul>
 <h4 id="difficultes-rencontrees_8">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees_8" title="Permanent link">&para;</a></h4>
+<p>L'épistasie est une interation assez subtile donc la mesurer demande des méthodes précises et bien selectionner les exemples de référence qui serviront pour les comparaisons.</p>
 <h4 id="decisions-et-ajustements_8">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements_8" title="Permanent link">&para;</a></h4>
+<ul>
+<li>va présenter son travail au lab meeting.</li>
+<li>va approfondir les résultats durant l'été.</li>
+</ul>
 
 
 
